@@ -91,7 +91,7 @@ class Model_1(nn.Module):
 
         x = x.view(-1, 10)
         return F.log_softmax(x, dim=-1)
-        import torch.nn.functional as F
+     
 dropout_value = 0.1
 class Model_2(nn.Module):
     def __init__(self):
