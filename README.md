@@ -207,6 +207,107 @@ Test set: Average loss: 0.0212, Accuracy: 9938/10000 (99.38%)
 ## Analysis:
 -> model is training accuracy is not high as model 1 because we applied image augmentation. We are getting best test accuracy around 99.38 % but still we are not getting our target accuracy 99.4 % within 15 epochs.  
 
+# Model_3 :
+
+Summary same as model 2. We added step lr to get consistent accuracy.
+
+## Output of the model_3:
+
+EPOCH: 0
+Loss=0.1545822024345398 Batch_id=937 Accuracy=89.67: 100%|██████████| 938/938 [00:50<00:00, 18.54it/s]
+
+Test set: Average loss: 0.0636, Accuracy: 9816/10000 (98.16%)
+
+EPOCH: 1
+Loss=0.05247095227241516 Batch_id=937 Accuracy=97.43: 100%|██████████| 938/938 [00:45<00:00, 20.58it/s]
+
+Test set: Average loss: 0.0545, Accuracy: 9825/10000 (98.25%)
+
+EPOCH: 2
+Loss=0.01090412586927414 Batch_id=937 Accuracy=97.74: 100%|██████████| 938/938 [00:47<00:00, 19.58it/s]
+
+Test set: Average loss: 0.0444, Accuracy: 9845/10000 (98.45%)
+
+EPOCH: 3
+Loss=0.011959541589021683 Batch_id=937 Accuracy=98.11: 100%|██████████| 938/938 [00:52<00:00, 17.76it/s]
+
+Test set: Average loss: 0.0334, Accuracy: 9887/10000 (98.87%)
+
+EPOCH: 4
+Loss=0.012834731489419937 Batch_id=937 Accuracy=98.23: 100%|██████████| 938/938 [00:49<00:00, 18.92it/s]
+
+Test set: Average loss: 0.0353, Accuracy: 9888/10000 (98.88%)
+
+EPOCH: 5
+Loss=0.09096255153417587 Batch_id=937 Accuracy=98.44: 100%|██████████| 938/938 [00:49<00:00, 19.00it/s]
+
+Test set: Average loss: 0.0380, Accuracy: 9879/10000 (98.79%)
+
+EPOCH: 6
+Loss=0.0066528040915727615 Batch_id=937 Accuracy=98.64: 100%|██████████| 938/938 [00:51<00:00, 18.28it/s]
+
+Test set: Average loss: 0.0237, Accuracy: 9926/10000 (99.26%)
+
+EPOCH: 7
+Loss=0.018593179062008858 Batch_id=937 Accuracy=98.71: 100%|██████████| 938/938 [00:51<00:00, 18.14it/s]
+
+Test set: Average loss: 0.0222, Accuracy: 9930/10000 (99.30%)
+
+EPOCH: 8
+Loss=0.12344025075435638 Batch_id=937 Accuracy=98.77: 100%|██████████| 938/938 [00:52<00:00, 17.75it/s]
+
+Test set: Average loss: 0.0222, Accuracy: 9932/10000 (99.32%)
+
+EPOCH: 9
+Loss=0.04238898679614067 Batch_id=937 Accuracy=98.75: 100%|██████████| 938/938 [00:55<00:00, 17.03it/s]
+
+Test set: Average loss: 0.0229, Accuracy: 9925/10000 (99.25%)
+
+EPOCH: 10
+Loss=0.014654296450316906 Batch_id=937 Accuracy=98.78: 100%|██████████| 938/938 [00:53<00:00, 17.50it/s]
+
+Test set: Average loss: 0.0235, Accuracy: 9929/10000 (99.29%)
+
+EPOCH: 11
+Loss=0.025395750999450684 Batch_id=937 Accuracy=98.79: 100%|██████████| 938/938 [00:49<00:00, 19.13it/s]
+
+Test set: Average loss: 0.0201, Accuracy: 9941/10000 (99.41%)
+
+EPOCH: 12
+Loss=0.02492782287299633 Batch_id=937 Accuracy=98.89: 100%|██████████| 938/938 [00:47<00:00, 19.78it/s]
+
+Test set: Average loss: 0.0202, Accuracy: 9941/10000 (99.41%)
+
+EPOCH: 13
+Loss=0.006124862004071474 Batch_id=937 Accuracy=98.84: 100%|██████████| 938/938 [00:46<00:00, 20.14it/s]
+
+Test set: Average loss: 0.0209, Accuracy: 9940/10000 (99.40%)
+
+EPOCH: 14
+Loss=0.012608533725142479 Batch_id=937 Accuracy=98.83: 100%|██████████| 938/938 [00:44<00:00, 20.98it/s]
+
+Test set: Average loss: 0.0215, Accuracy: 9932/10000 (99.32%)
+
+## output Plots :
+
+![image](https://github.com/sunandhini96/ERA_S7/assets/63030539/60d67e23-2025-4bea-b8f4-0788e460c611)
+
+## Observations for model_3:
+
+## Target:
+-> We added step lr to improve performance consistently.
+## Results:
+-> Parameters: 7.7k
+
+-> Best Train Accuracy: 98.89
+
+-> Best Test Accuracy: 99.41
+
+## Analysis:
+-> model test accuracy 99.41 % epoch 11 and 12. By adding step lr we are getting consistent accuracy at last few epochs.
+
+
+
 
 
 
